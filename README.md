@@ -9,9 +9,9 @@ Il sistema è modellato tramite un thread per ogni barca. Il numero di barche no
 ```c
 struct porto t { ... } porto;
 void init_porto(struct porto_t *porto);
-void entrata richiesta(struct porto t *porto);
-void entrata ok(struct porto t *porto):
-void uscita richiesta(struct porto t *porto);
+void entrata_richiesta(struct porto t *porto);
+void entrata_ok(struct porto t *porto):
+void uscita_richiesta(struct porto t *porto);
 void uscita_ok(struct porto_t *porto);
 
 void *barca(void *arg)
