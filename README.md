@@ -28,7 +28,7 @@ void *barca(void *arg)
 }
 ```
 
-Modellare il sistema in linguaggio C con la libreria pthread nel seguente modo utilizzando:
+Modellare il sistema in linguaggio C con la libreria pthread nel seguente modo utilizzando:<br />
 [ ] semafori
 [ ] mutex + variabili condition
 
