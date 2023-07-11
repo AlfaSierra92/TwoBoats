@@ -31,5 +31,6 @@ void *barca(void *arg)
 Modellare il sistema in linguaggio C con la libreria pthread nel seguente modo utilizzando:
 [ ] semafori
 [ ] mutex + variabili condition
+
 Definire la struttura porto_t, e scrivere le funzioni: init_porto, entrata_richiesta, entrata_ok, uscita_richiesta, uscita_ok.
 
